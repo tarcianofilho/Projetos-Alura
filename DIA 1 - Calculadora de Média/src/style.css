@@ -1,0 +1,51 @@
+body {
+  font-family: Courier, "Lucida Console", monospace;
+  min-height: 400px;
+  background-image: url('https://i.imgur.com/5ydRkp0.png'); 
+  background-color: #1f6b2a;
+  background-size: 80vh;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#texto {
+  color: #ffffff;
+}
+
+.resultado {
+  padding: auto;
+  margin: auto;
+  color: white;
+  height: auto;
+  width: auto;
+  background: rgba(229, 217, 10, 0.8);
+  border-radius: 10px;
+}
