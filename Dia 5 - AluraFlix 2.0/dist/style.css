@@ -1,0 +1,97 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://i.imgur.com/ajr8Mha.png");
+  background-color: #000000;
+  background-size: auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+h1 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 5px 15px;
+  justify-content: space-between;
+}
+
+h4 {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+  color: #da1e26;
+  text-shadow: 1px 1px 2px black;
+}
+
+.container {
+  width: 100%;
+  box-sizing: padding-box;
+  background-color: rgb(43, 43, 43, 0.5);
+}
+
+.page-title {
+  color: #e50914;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+  margin-right: 50px;
+  display: flex
+  position: absolute;
+  align-items: left;
+  padding-left: 50px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#listaFilmes img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+.caption {
+  color: #ffffff;
+  padding: 6px 0 8px;
+  font-size: 1.5em;
+  font-weight: 400;
+}
