@@ -32,7 +32,7 @@ var carta3 = {
     }
 };
 
-var cartas = [carta1, carta2];
+var cartas = [carta1, carta2, carta3];
 var cartaMaquina;
 var cartaJogador;
 
