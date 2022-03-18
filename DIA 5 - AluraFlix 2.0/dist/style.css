@@ -44,7 +44,7 @@ h2 {
 .page-logo {
   width: 200px;
   margin-right: 50px;
-  display: flex
+  display: flex;
   position: absolute;
   align-items: left;
   padding-left: 50px;
